@@ -22,7 +22,7 @@ $ source /venv/bin/activate
 
 ## Running the Generators
 
-The project offers two types of generators, one for image-classification and one for object-detection. Both are connected through `generate.py` and can be run by executing this script. To configure which generator should be used, a INI-config-file must be passed to the script. The configuration file must include all the necessary parameters for the generator as well as the augmentation policy. Examples for valid configurations for generators and all available  augmentations are given in `config/classification.ini` and `config/detection.ini`. After setting up the configuration, the project can be run as follows:
+The project offers two types of generators, one for image-classification and one for object-detection. Both are connected through `generate.py` and can be run by executing this script. To configure which generator should be used, a INI-config-file must be passed to the script. The configuration file must include all the necessary parameters for the generator as well as the augmentation policy. Examples for valid configurations for generators and all available  augmentations are given in `configs/classification.ini` and `configs/detection.ini`. After setting up the configuration, the project can be run as follows:
 
 ```bash
 $ python generate.py --config /path/to/config/file 
